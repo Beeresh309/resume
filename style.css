@@ -7,13 +7,13 @@ body {
   max-width: 850px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.42; /* slightly taller lines for full-page fill */
+  line-height: 1.42; 
 }
 
 .container {
   background: #fff;
   margin: 10px auto;
-  padding: 36px 45px; /* increased padding to fill vertical space */
+  padding: 36px 45px; 
   border-radius: 10px;
   box-shadow: 0 0 6px rgba(0,0,0,0.1);
 }
@@ -27,8 +27,8 @@ h1 {
 }
 
 a {
-  color: #0077b6;
-  text-decoration: none;
+    color: #1a0dab; 
+    text-decoration: none;
 }
 
 a:hover {
@@ -40,7 +40,7 @@ h2 {
   border-bottom: 1px solid #90e0ef;
   padding-bottom: 4px;
   margin-top: 16px;
-  margin-bottom: 10px; /* slightly bigger space to fill page */
+  margin-bottom: 10px; 
   font-size: 16px;
   letter-spacing: 0.3px;
 }
@@ -58,7 +58,7 @@ ul {
 }
 
 section {
-  margin-bottom: 14px; /* increased spacing for full-page fill */
+  margin-bottom: 14px; 
 }
 
 .edu-entry {
@@ -75,10 +75,10 @@ section {
   font-size: 14px;
 }
 
-/* Extra spacing for bottom sections */
+
 .skills-section,
 .extracurriculars {
-  margin-bottom: 20px; /* pushes content to bottom of page */
+  margin-bottom: 20px; 
 }
 
 /* ===== PRINT STYLES ===== */
@@ -86,8 +86,7 @@ section {
   body {
     margin: 0;
     padding: 0;
-    -webkit-print-color-adjust: exact;
-    transform: scale(0.985); /* tiny shrink to prevent overflow */
+    transform: scale(0.985); 
     transform-origin: top left;
   }
 
@@ -95,7 +94,7 @@ section {
     margin: 0;
     padding: 36px 45px;
     box-shadow: none;
-    height: 1125px; /* fills almost entire A4 page */
+    height: 1125px; 
     overflow: hidden;
   }
 
